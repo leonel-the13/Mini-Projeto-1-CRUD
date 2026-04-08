@@ -3,7 +3,6 @@ package com.example.mini_crud.controller;
 import com.example.mini_crud.modal.User;
 import com.example.mini_crud.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,7 +20,7 @@ public class UserController {
     }
 
     @PostMapping
-    public User createUsert(@RequestBody User user) {
+    public User createUser(@RequestBody User user) {
         return userService.creatUser(user);
     }
 
