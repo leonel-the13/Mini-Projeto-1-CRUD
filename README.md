@@ -49,8 +49,6 @@ Possui a seguinte estrutura:
    ```bash
    ./gradlew bootRun
    ```
-   O projeto, por padrão, utiliza o banco H2 em memória e está pronto para rodar sem configuração adicional.
-
 3. Acesse a aplicação em:
    ```
    http://localhost:8080
